@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-goan^so9p-00=86r*i^)rei6w#^uzo5cxc3g!@yd-mir+w^y3k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pqrsf-search-andje-cjbgf4dnbde5c5h3.canadacentral-01.azurewebsites.net']
+ALLOWED_HOSTS = ['buscador-andje-fbgmcefnefbxacfr.canadacentral-01.azurewebsites.net']
 
 
 # Application definition
