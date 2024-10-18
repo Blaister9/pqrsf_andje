@@ -1,0 +1,1 @@
+web: gunicorn buscador_andje.wsgi --log-file -

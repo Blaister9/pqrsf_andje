@@ -16,7 +16,7 @@ with open("embeddings.pkl", "rb") as f:
 index = faiss.read_index("faiss_index.index")
 
 # Cargar el archivo JSON con las preguntas y respuestas procesadas
-with open("preguntas_respuestas_procesadasV1.json", "r", encoding="utf-8") as file:
+with open("preguntas_respuestas_procesadas.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 # Función para realizar la búsqueda en el índice FAISS
