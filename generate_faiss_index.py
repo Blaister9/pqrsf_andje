@@ -8,7 +8,7 @@ import faiss
 model = SentenceTransformer('sentence-transformers/multi-qa-mpnet-base-dot-v1')
 
 # Cargar tus datos desde el archivo JSON
-with open("preguntas_respuestas_procesadasV1.json", "r", encoding="utf-8") as file:
+with open("preguntas_respuestas_procesadas.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 # Procesar y generar embeddings
