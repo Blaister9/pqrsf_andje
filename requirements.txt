@@ -1,0 +1,5 @@
+django
+faiss-cpu
+sentence-transformers
+numpy
+pandas
