@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-goan^so9p-00=86r*i^)rei6w#^uzo5cxc3g!@yd-mir+w^y3k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['buscador-andje-fbgmcefnefbxacfr.canadacentral-01.azurewebsites.net',, 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['buscador-andje-fbgmcefnefbxacfr.canadacentral-01.azurewebsites.net','localhost','127.0.0.1']
 
 
 # Application definition
