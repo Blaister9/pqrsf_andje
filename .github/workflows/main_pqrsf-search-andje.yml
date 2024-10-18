@@ -1,4 +1,4 @@
-# GitHub Actions workflow for deploying Python app to Azure Web App using Zip Deploy and oryx
+# GitHub Actions workflow for deploying Python app to Azure Web App using Zip Deploy
 
 name: Build and deploy Python app to Azure Web App - pqrsf-search-andje
 
@@ -51,3 +51,4 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3AE73103700D4AE6BDA06C218C97B33F }}
           package: './release.zip'
+          deploy-type: 'zip'  # Forzando el tipo de despliegue a Zip
